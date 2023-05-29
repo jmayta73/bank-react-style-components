@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import List from "../List";
 
 import Title from "../Title";
 import Account from "../Account";
@@ -30,6 +30,7 @@ const Container = () => {
       <Title>Smart Bank</Title>
       <ContentSection >
         <Account />
+        <List />
       </ContentSection>
     </StyledDiv>
   );
