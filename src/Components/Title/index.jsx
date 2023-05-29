@@ -1,5 +1,5 @@
 
-
+ 
 // el import React from "react" se quita porque en el proyecto react no se esta usando
 // cuando se usa style-components como en 
 // const Titlr = styled.h1 despeues de esto se pone las tilde al reves para poner los comandos como ==> `color: grey`
