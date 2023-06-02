@@ -7,7 +7,7 @@ import Account from "../Account";
 import { fondoClaro } from "../UI/Variables";
 
 const StyledDiv = styled.div`
-  background-color: ${fondoClaro};
+  background-color: ${({theme})=> theme.body};
   min-height: 90vh;
   padding: 0px 15vw;
 `
