@@ -5,17 +5,17 @@ import transporte from "./assets/images/transporte.svg";
 import otros from "./assets/images/otros.svg";
 import utilidades from "./assets/images/utilidades.svg";
 
-import { Icono } from "./Components/UI";
+import { Icono, Iconotema } from "./Components/UI";
 
 export default (type) => {
     console.log(type);
     const Images = {
-        Restaurante : <Icono  src={alimentacion} alt = "Restaurante" />,
-        Salud : <Icono  src={salud} alt = "Salud" />,
+        Restaurante : <Iconotema  src={alimentacion} alt = "Restaurante" />,
+        Salud : <Iconotema  src={salud} alt = "Salud" />,
         
-        Transporte : <Icono  src={transporte} alt = "Transporte" />,
-        Utilidades : <Icono  src={utilidades} alt = "Utilidades" />, 
-        default : <Icono  src= {otros } alt = "Otros" />,
+        Transporte : <Iconotema  src={transporte} alt = "Transporte" />,
+        Utilidades : <Iconotema  src={utilidades} alt = "Utilidades" />, 
+        default : <Iconotema  src= {otros } alt = "Otros" />,
     };
 
     return Images[type] || Images["default"] ;

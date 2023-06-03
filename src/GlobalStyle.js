@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GloblaStyle = createGlobalStyle `
+const GlobalStyle = createGlobalStyle `
 * {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
@@ -10,4 +10,4 @@ const GloblaStyle = createGlobalStyle `
   
   }
   `
-  export default GloblaStyle;
+  export default GlobalStyle;
